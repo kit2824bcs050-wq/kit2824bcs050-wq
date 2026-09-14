@@ -7,8 +7,6 @@
 </a>
 
 <br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=5B8CFF)](https://github.com/kit2824bcs050-wq)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hari-e-532560350/)
 </div>
 
