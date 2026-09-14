@@ -1,96 +1,104 @@
-# `$ whoami`
+<div align="center">
 
-<h1 align="center">HARI E.</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0C10,100:1e2327&height=180&section=header&text=HARI%20E.&fontSize=52&fontColor=5B8CFF&fontAlignY=40&desc=root%40hari%20~%20%23%20whoami&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%"/>
 
-<p align="center">
-  <strong>Backend • Systems • Cybersecurity</strong>
-</p>
+<a href="https://github.com/kit2824bcs050-wq">
+<img src="https://readme-typing-svg.demolab.com/?lines=Backend+%2F%2F+Systems+%2F%2F+Cybersecurity;Build.+Break.+Understand.+Rebuild.;status%3A+monitoring+all+layers...;&font=JetBrains+Mono&size=20&pause=1200&color=5B8CFF&center=true&vCenter=true&width=600&height=45&background=0A0C1000" />
+</a>
 
-<p align="center">
-  <em>Build. Break. Understand. Rebuild.</em>
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/kit2824bcs050-wq">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=5B8CFF)](https://github.com/kit2824bcs050-wq)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+![Status](https://img.shields.io/badge/uptime-online-5B8CFF?style=flat-square&logo=statuspage&logoColor=white)
 
----
+</div>
 
-## `01 // ABOUT`
+<br/>
 
-I'm a Computer Science student who likes understanding what happens **behind the interface**.
-
-I started with programming.
-
-Then came Linux.
-
-Then networking.
-
-Then backend systems.
-
-Then security.
-
-Now I'm trying to connect all of them.
-
-My goal isn't just to learn frameworks — it's to understand the systems underneath them well enough to build, debug, secure, and improve them.
-
-```text
-Frontend
-   ↓
-Backend
-   ↓
-Databases
-   ↓
-Operating Systems
-   ↓
-Networking
-   ↓
-Security
+```ansi
+┌──[ root@hari ]──[ ~/profile ]
+└─$ cat access_log.txt
+[SYSTEM]   session initialized
+[IDENTITY] Hari E. — Computer Science student
+[FOCUS]    Backend systems / Linux internals / Security
+[MODE]     build → break → understand → rebuild
 ```
 
 ---
 
-## `02 // WHAT I'M BUILDING`
+## `0x01` // ABOUT
 
-### `VELORA`
+<table>
+<tr><td>
 
-**Production-grade Smart P2P Vehicle & Parking Rental Ecosystem**
+I'm a CS student who likes understanding what happens **behind the interface**.
 
-Velora is my attempt to move beyond a typical college project and design something closer to a real product.
-
-The platform connects:
-
-```text
-HOSTS ───────────────┐
-                     │
-                     ▼
-                  VELORA
-                     │
-                     ▼
-RENTERS ─────────────┘
+```
+Programming → Linux → Networking → Backend → Web Apps → Security → Systems
 ```
 
-The system is designed around:
+My goal isn't to collect frameworks — it's to understand the systems underneath
+them well enough to build, debug, secure, and improve them. I spend most of my
+time at the point where **backend engineering and security meet**.
 
-* Vehicle & parking discovery
-* Host and renter workflows
-* Location-based discovery
-* Identity/document verification
-* Booking management
-* Payments & wallet architecture
-* Reviews & ratings
-* Real-time communication
-* Secure authentication
-* Scalable backend architecture
+</td></tr>
+</table>
 
-### Backend architecture
+---
 
-```text
+## `0x02` // SYSTEM STATUS
+
+<div align="center">
+
+| MODULE | STATE | DETAIL |
+|:--|:--:|:--|
+| 🟢 `backend.svc` | `ACTIVE` | APIs, architecture, scalability |
+| 🟢 `linux.kernel` | `ACTIVE` | processes, permissions, services |
+| 🟡 `networking.stack` | `LEARNING` | TCP/IP, HTTP, DNS, routing |
+| 🟡 `security.module` | `LEARNING` | web security, CTF methodology |
+| 🔵 `devops.pipeline` | `IDLE` | Docker, CI/CD, observability |
+
+</div>
+
+---
+
+## `0x03` // ACTIVE BUILDS
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### `> VELORA`
+**P2P vehicle & smart-parking rental platform**
+
+Real product-grade build, not a college demo — host/renter marketplace with
+live booking, identity verification, wallet, and real-time comms. Currently in
+design/prototype phase, with a full UI/UX model showcase across onboarding,
+booking, AI trip planning, and live tracking flows.
+
+`Node.js` `TypeScript` `PostgreSQL` `Prisma` `Redis` `Socket.IO` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### `> IRAH DESKTOP`
+**AI-powered, security-first Linux desktop**
+
+Modular Wayland desktop environment built on Kali Linux + Hyprland, currently
+at the v0.1 runtime-foundation stage — an event-driven TypeScript monorepo
+covering the core, plugin system, and desktop services, wrapped in a custom
+`signal-dark` visual theme.
+
+`TypeScript` `Hyprland` `Kali Linux` `Wayland`
+
+</td>
+</tr>
+</table>
+
+**Backend architecture (Velora)**
+
+```
 React / Mobile Client
         │
         ▼
@@ -107,260 +115,97 @@ Prisma Redis     Socket.IO
 PostgreSQL
 ```
 
-**Stack**
+---
 
-`Node.js` `Express` `TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.IO` `Docker` `Nginx`
+## `0x04` // OTHER PROJECTS
+
+| Repo | Description | Stack |
+|:--|:--|:--|
+| [`devvault-api`](https://github.com/kit2824bcs050-wq) | Backend learning lab for servers & APIs | `Node.js` `Express` `REST` |
+| [`react-lab`](https://github.com/kit2824bcs050-wq) | Small apps exploring modern React architecture | `React` `Vite` `React Router` |
+| [`weather-dash`](https://github.com/kit2824bcs050-wq) | Hooks, API integration, async data | `React` `Vite` `REST API` |
+| [`myhyprdesk`](https://github.com/kit2824bcs050-wq/myhyprdesk) | Hyprland desktop config | `Shell` |
 
 ---
 
-## `03 // MY CURRENT STACK`
+## `0x05` // STACK
 
-### Languages
+<div align="center">
 
-<p>
-<img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-</p>
+**Languages**
+<br/>
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### Backend
+**Backend**
+<br/>
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-</p>
+**Frontend**
+<br/>
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-### Frontend
+**Systems & Tools**
+<br/>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-<p>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-</p>
-
-### Systems & Tools
-
-<p>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
+</div>
 
 ---
 
-## `04 // CURRENTLY LEARNING`
+## `0x06` // CURRENTLY LEARNING
 
-```text
-NETWORKING
-├── TCP/IP
-├── HTTP
-├── DNS
-├── Routing
-└── Network troubleshooting
-
-BACKEND
-├── REST APIs
-├── Authentication
-├── Database design
-├── Caching
-├── Queues
-└── Real-time systems
-
-SECURITY
-├── Web security
-├── Linux security
-├── Privilege boundaries
-├── CTF methodology
-└── Secure application design
-
-SYSTEMS
-├── Linux internals
-├── Processes
-├── Permissions
-├── Services
-└── Containers
 ```
-
-I'm especially interested in the point where **backend engineering and security meet**.
-
----
-
-## `05 // HOW I LIKE TO LEARN`
-
-I don't want to memorize commands just because they work.
-
-I want to know:
-
-> **Why does this work?**
-
-Then:
-
-> **What happens if it breaks?**
-
-And finally:
-
-> **How would I design it better?**
-
-That's why my learning path keeps moving deeper:
-
-```text
-Programming
-     ↓
-Linux
-     ↓
-Networking
-     ↓
-Backend
-     ↓
-Web Applications
-     ↓
-Security
-     ↓
-Systems
+NETWORKING                BACKEND                  SECURITY                SYSTEMS
+├── TCP/IP                ├── REST APIs            ├── Web security        ├── Linux internals
+├── HTTP                  ├── Authentication        ├── Linux security      ├── Processes
+├── DNS                   ├── Database design       ├── Privilege boundaries├── Permissions
+├── Routing                ├── Caching / Queues      ├── CTF methodology     ├── Services
+└── Troubleshooting        └── Real-time systems     └── Secure app design  └── Containers
 ```
 
 ---
 
-## `06 // PROJECTS`
+## `0x07` // ACTIVITY
 
-### `VELORA`
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=kit2824bcs050-wq&show_icons=true&hide_border=true&bg_color=0A0C10&title_color=5B8CFF&text_color=8b949e&icon_color=5B8CFF&border_radius=6" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=kit2824bcs050-wq&hide_border=true&background=0A0C10&stroke=0A0C10&ring=5B8CFF&fire=5B8CFF&currStreakLabel=5B8CFF&sideLabels=8b949e&dates=8b949e&border_radius=6" width="49%"/>
+</div>
 
-> Smart P2P vehicle & parking rental ecosystem
-
-`Node.js` `TypeScript` `PostgreSQL` `Prisma` `Redis` `Socket.IO` `Docker`
-
----
-
-### `DEVVAULT API`
-
-> A backend learning laboratory for understanding servers and APIs.
-
-`Node.js` `Express` `REST API`
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kit2824bcs050-wq&hide_border=true&bg_color=0A0C10&color=5B8CFF&line=5B8CFF&point=8b949e&area_color=5B8CFF&area=true" width="98%"/>
+</div>
 
 ---
 
-### `REACT LAB`
+<div align="center">
 
-> Small applications built while learning modern React architecture.
+```
+root@hari:~$ cat philosophy.txt
 
-`React` `Vite` `React Router`
-
----
-
-### `WEATHER DASH`
-
-> React application exploring hooks, API integration and asynchronous data.
-
-`React` `Vite` `REST API`
-
----
-
-## `07 // ENGINEERING INTERESTS`
-
-| Area                 | What interests me                                 |
-| -------------------- | ------------------------------------------------- |
-| Backend              | APIs, architecture, scalability                   |
-| Databases            | PostgreSQL, schema design, queries                |
-| Systems              | Linux, processes, permissions                     |
-| Networking           | TCP/IP, HTTP, protocols                           |
-| Security             | Web security, defensive engineering, CTF learning |
-| DevOps               | Docker, CI/CD, observability                      |
-| Software Engineering | Clean architecture, debugging, maintainability    |
-
----
-
-## `08 // THE ROAD AHEAD`
-
-```text
-          TODAY
-            │
-            ▼
-     ┌─────────────┐
-     │  BACKEND    │
-     └──────┬──────┘
-            │
-            ▼
-     ┌─────────────┐
-     │ NETWORKING  │
-     └──────┬──────┘
-            │
-            ▼
-     ┌─────────────┐
-     │   SYSTEMS   │
-     └──────┬──────┘
-            │
-            ▼
-     ┌─────────────┐
-     │   SECURITY  │
-     └──────┬──────┘
-            │
-            ▼
-     ┌─────────────┐
-     │  SOFTWARE   │
-     │   ENGINEER  │
-     └─────────────┘
+  Don't just use technology.
+  Understand it.
+  Build with it.
+  Secure it.
+  Make it better.
 ```
 
-I'm not trying to learn everything at once.
+**`while(alive) { learn(); build(); debug(); repeat(); }`**
 
-I'm building depth one layer at a time.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e2327,100:0A0C10&height=100&section=footer" width="100%"/>
 
----
-
-## `09 // GITHUB ACTIVITY`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kit2824bcs050-wq&show_icons=true&hide_border=true&rank_icon=github" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kit2824bcs050-wq&hide_border=true" />
-</p>
-
----
-
-## `10 // CONTRIBUTIONS`
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kit2824bcs050-wq&hide_border=true" />
-</p>
-
----
-
-## `11 // A SMALL NOTE`
-
-I started by learning how to write code.
-
-Now I'm more interested in understanding **how the code becomes a system**.
-
-The long-term goal is simple:
-
-```text
-Don't just use technology.
-
-Understand it.
-
-Build with it.
-
-Secure it.
-
-Make it better.
-```
-
----
-
-<p align="center">
-  <strong>HARI E.</strong>
-  <br />
-  <sub>Computer Science • Backend • Systems • Security</sub>
-</p>
-
-<p align="center">
-  <code>while(alive) { learn(); build(); debug(); repeat(); }</code>
-</p>
+</div>
